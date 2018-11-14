@@ -20,6 +20,8 @@ Our Google Apps Script code at Google (https://scripts.google.com) might look li
 
 The main() function of this script can be triggered by Google Apps Script every hour. Just click on the clock symbol in Google Apps Scripts and set up the desired interval. With each run, the script retrieves the current weather information and compares it with the limit as defined in the INT_LOW_TEMP constants. If the temperature is too low, the script sends a SIGNL4 alarm.
 
+![SIGNL4 Weather Alert](signl4-weather-alert.png)
+
 Thanks to Frank Gutacker for the code and for preparing this article.
 
 About SIGNL4
